@@ -1,0 +1,14 @@
+Address	  Data Written
+0	      10
+1	      20
+2	      30
+
+Then it reads the same addresses:
+
+Time	Address	Operation	Data
+10 ns	0	      Write	     10
+20 ns	1	      Write	     20
+30 ns	2	      Write	     30
+40 ns	0	      Read	     10
+50 ns	1	      Read	     20
+60 ns	2	      Read	     30
